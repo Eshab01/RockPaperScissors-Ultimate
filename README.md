@@ -19,3 +19,7 @@ A modern take on the classic Rock Paper Scissors game — packed with emojis, so
 2️⃣ Install the required packages:  
 ```bash
 pip install -r requirements.txt
+
+3️⃣ Run the game:
+```bash
+python game.py
