@@ -3,7 +3,7 @@ from tkinter import messagebox
 import random
 import pygame
 
-# 🎧 Initialize sound mixer
+# 🎧 Initialize sound mixerr
 pygame.mixer.init()
 
 # 🎯 Load sound effects
