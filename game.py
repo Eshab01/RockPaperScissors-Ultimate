@@ -77,7 +77,7 @@ def reset_game():
 def check_game_over():
     if current_round > rounds:
         if player_score > bot_score:
-            messagebox.showinfo("Game Over", "🏅 You won the match!")
+            messagebox.showinfo("Game Over", "🏅You won the match!")
         elif bot_score > player_score:
             messagebox.showinfo("Game Over", "🤖 Bot wins the match!")
         else:
