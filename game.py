@@ -79,7 +79,7 @@ def check_game_over():
         if player_score > bot_score:
             messagebox.showinfo("Game Over", "🏅You won the match!")
         elif bot_score > player_score:
-            messagebox.showinfo("Game Over", "🤖 Bot wins the match!")
+            messagebox.showinfo("Game Over", "🤖Bot wins the match!")
         else:
             messagebox.showinfo("Game Over", "🤝 It's a tie!")
         reset_game()
